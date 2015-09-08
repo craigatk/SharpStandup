@@ -14,5 +14,8 @@ namespace SharpStandup.Models
         public string Today { get; set; }
 
         public string Impediments { get; set; }
+
+        [Required(ErrorMessage="Please enter your name")]
+        public string Username { get; set; }
     }
 }
